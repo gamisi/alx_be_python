@@ -23,8 +23,9 @@ match priority:
 # Check if the task is time-bound and add urgency to the reminder
 if time_bound == "yes":
     urgency_message = "that requires immediate attention today!"
+    print(f"\nReminder: '{task}' is a {priority_message} task. {urgency_message}")
 else:
-    urgency_message = "Note: Consider completing it when you have free time."
+    urgency_message = "Consider completing it when you have free time."
+    print(f"\nNote: '{task}' is a {priority_message} task. {urgency_message}")
 
-# Print the customized reminder
-print(f"\nReminder: '{task}' is a {priority_message} task. {urgency_message}")
+
