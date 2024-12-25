@@ -26,5 +26,8 @@ if time_bound == "yes":
 else:
     urgency_message = "Note: Consider completing it when you have free time."
 
-# Print the customized reminder
-print(f"\nReminder: '{task}' is a {priority_message} task. {urgency_message}")
+# Final reminder output
+reminder_message = f"\nReminder: '{task}' is a {priority_message} task. {urgency_message}"
+
+# Print the reminder message
+print(reminder_message)
