@@ -27,7 +27,7 @@ else:
     urgency_message = "Note: Consider completing it when you have free time."
 
 # Final reminder output
-reminder_message = f"\nReminder: '{task}' is a {priority_message} task. {urgency_message}"
+reminder = f"\nReminder: '{task}' is a {priority_message} task. {urgency_message}"
 
 # Print the reminder message
-print(reminder_message)
+print(reminder)
