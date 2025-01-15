@@ -11,7 +11,7 @@ def perform_operation(num1,num2,operation):
         return num1 / num2
     else:
         return "Error: Invalid operation. Please choose 'add', 'subtract', 'multiply', or 'divide'."
-
+"""
 def main():
     num1 = float(input("Enter the first number:"))
     num2 = float(input("Enter the second nuber:"))
@@ -21,3 +21,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
